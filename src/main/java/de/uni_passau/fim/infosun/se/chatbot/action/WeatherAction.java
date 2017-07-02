@@ -5,7 +5,8 @@ import java.io.PrintStream;
 public class WeatherAction implements Action {
     @Override
     public boolean accept(String request) {
-        return request.contains("wetter");
+        return request.contains("wetter")
+                || request.contains("temperatur");
     }
 
     @Override
