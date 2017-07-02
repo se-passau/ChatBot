@@ -10,7 +10,7 @@ public interface Action {
      * @param request Input request
      * @return <code>true</code> if request can be handled
      */
-    public boolean accept(String request);
+    boolean accept(String request);
 
     /**
      * Runs the <code>Action</code> on the specified input request.
@@ -20,5 +20,5 @@ public interface Action {
      * @param out <code>PrintStream</code> used for feedback
      * @return <code>true</code> if the conversation should continue after <code>Action</code>
      */
-    public boolean run(String request, PrintStream out);
+    boolean run(String request, PrintStream out);
 }
