@@ -1,8 +1,6 @@
 package de.uni_passau.fim.infosun.se.chatbot;
 
-import de.uni_passau.fim.infosun.se.chatbot.action.Action;
-import de.uni_passau.fim.infosun.se.chatbot.action.DefaultAction;
-import de.uni_passau.fim.infosun.se.chatbot.action.ExitAction;
+import de.uni_passau.fim.infosun.se.chatbot.action.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,6 +12,7 @@ public class Main {
 
     public static void main(String[] args) {
         List<Action> handlers = new ArrayList<>();
+        handlers.add(new MensaAction());
         handlers.add(new ExitAction());
         handlers.add(new DefaultAction());
 
