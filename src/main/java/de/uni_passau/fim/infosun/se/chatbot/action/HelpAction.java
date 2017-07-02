@@ -5,7 +5,7 @@ import java.io.PrintStream;
 public class HelpAction implements Action {
     @Override
     public boolean accept(String request) {
-        return request.contains("hilfe");
+        return request.contains("hilf");
     }
 
     @Override
