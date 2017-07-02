@@ -17,6 +17,7 @@ public class Main {
         handlers.add(new MensaAction());
         handlers.add(new ExitAction());
         handlers.add(new HelpAction());
+        handlers.add(new HelloAction());
         handlers.add(new DefaultAction());
 
         Scanner input = new Scanner(System.in);
