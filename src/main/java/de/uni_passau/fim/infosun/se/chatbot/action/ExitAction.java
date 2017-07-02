@@ -5,10 +5,10 @@ import java.io.PrintStream;
 public class ExitAction implements Action {
     @Override
     public boolean accept(String request) {
-        return request.contains("wiedersehen") ||
-                request.contains("exit") ||
-                request.contains("servus") ||
-                request.contains("tschüss");
+        return request.contains("wiedersehen")
+                || request.contains("exit")
+                || request.contains("servus")
+                || request.contains("tschüss");
     }
 
     @Override
