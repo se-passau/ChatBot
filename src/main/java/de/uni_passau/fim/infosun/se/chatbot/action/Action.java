@@ -2,6 +2,15 @@ package de.uni_passau.fim.infosun.se.chatbot.action;
 
 import java.io.PrintStream;
 
+/**
+ * This interface specifies an <code>Action</code> that may be run by the bot.<br/>
+ * <br/>
+ * Each <code>Action</code> implements an <code>accept()</code> and a <code>run()</code> method.<br/>
+ * <br/>
+ * <code>accept()</code> determines whether the <code>Action</code> can be applied on the specified input request,
+ * <code>run</code> executes the <code>Action</code> and specifies via its <code>return</code> value
+ * whether the conversation is to be continued afterwards.
+ */
 public interface Action {
 
     /**
@@ -13,7 +22,7 @@ public interface Action {
     boolean accept(String request);
 
     /**
-     * Runs the <code>Action</code> on the specified input request.
+     * Runs the <code>Action</code> on the specified input request.<br/>
      * Output is written to the provided <code>PrintStream</code>.
      *
      * @param request Input request

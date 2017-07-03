@@ -5,6 +5,10 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
+/**
+ * This <code>Action</code> reacts to requests that include time or date relevant keywords.<br/>
+ * If run, it simply responds with the current date and time.
+ */
 public class DateTimeAction implements Action {
     @Override
     public boolean accept(String request) {

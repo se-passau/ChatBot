@@ -3,6 +3,10 @@ package de.uni_passau.fim.infosun.se.chatbot.action;
 import java.io.PrintStream;
 import java.util.Calendar;
 
+/**
+ * This <code>Action</code> responds to keywords related to food.<br/>
+ * It determines whether the canteen is within its opening hours and provides a link to the menu.
+ */
 public class MensaAction implements Action {
     @Override
     public boolean accept(String request) {

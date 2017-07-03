@@ -2,6 +2,9 @@ package de.uni_passau.fim.infosun.se.chatbot.action;
 
 import java.io.PrintStream;
 
+/**
+ * This <code>Action</code> accepts keywords that indicate a wish to terminate the conversation.
+ */
 public class ExitAction implements Action {
     @Override
     public boolean accept(String request) {
