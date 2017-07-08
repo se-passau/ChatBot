@@ -1,0 +1,14 @@
+commit b4ab1f80122a4a0ccda1f3c16478a36c8544356a
+Merge: 1bfd4d7 dd7ef2b
+Author: chrisonntag
+Date:   Sat Jul 8 17:59:40 2017 +0200
+
+    Merge branch 'bugfix'
+
+    Fixes a bug caused by Eve crashing the program.
+
+commit dd7ef2b13a422460a7ecb8fbc3a12c58c2c1e961
+Author: chrisonntag
+Date:   Sat Jul 8 17:59:06 2017 +0200
+
+    Fix bug causing the program to crash when talking about keywords like hunger or mensa
