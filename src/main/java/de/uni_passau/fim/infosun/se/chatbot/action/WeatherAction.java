@@ -1,6 +1,6 @@
 package de.uni_passau.fim.infosun.se.chatbot.action;
 
-import de.uni_passau.fim.infosun.se.chatbot.API;
+import de.uni_passau.fim.infosun.se.chatbot.APISample;
 import http.HttpClient;
 import json.JsonConverter;
 
@@ -8,7 +8,6 @@ import java.io.IOException;
 import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 /**
  * This <code>Action</code> accepts keywords that indicate inquiries about the weather
@@ -29,7 +28,7 @@ public class WeatherAction implements Action {
 
     @Override
     public boolean run(String request, PrintStream out) {
-        String url = String.format(weatherUrl, cityId, API.WEATHER_API_KEY);
+        String url = String.format(weatherUrl, cityId, APISample.WEATHER_API_KEY);
         String jsonObjects[] = {"main", "temp"};
         ArrayList<String> keys = new ArrayList<>(Arrays.asList(jsonObjects));
 

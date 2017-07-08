@@ -32,3 +32,6 @@ hs_err_pid*
 
 # Libraries
 /lib/
+
+# Samples
+/src/main/java/de/uni_passau/fim/infosun/se/chatbot/API.java
