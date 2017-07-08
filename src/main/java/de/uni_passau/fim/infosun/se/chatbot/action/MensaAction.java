@@ -25,6 +25,6 @@ public class MensaAction implements Action {
             out.println("Sowas Dummes ... die Mensa hat leider zu :(");
         }
 
-        return false;
+        return true;
     }
 }
