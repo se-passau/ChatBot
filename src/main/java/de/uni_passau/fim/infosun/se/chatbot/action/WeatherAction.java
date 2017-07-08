@@ -11,9 +11,9 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * This <code>Action</code> accepts keywords that indicate inquiries about the weather forecast.<br/>
+ * This <code>Action</code> accepts keywords that indicate inquiries about the weather
+ * forecast and queries OpenWeatherMap for suitable information.<br/>
  * <br/>
- * TODO: Respond with current information retrieved from a suitable online service.
  */
 public class WeatherAction implements Action {
 
