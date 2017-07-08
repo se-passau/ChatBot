@@ -38,7 +38,8 @@ public class WeatherAction implements Action {
 
             out.println("Die Temperatur in Passau beträgt derzeit " + temperature + "◦C");
         } catch (IOException e) {
-            out.println("Der Wetterfrosch ist heute leider krank :(");
+            out.println("Der Wetterfrosch ist heute leider krank oder kann nicht nachschauen, " +
+                    "weil er keinen API-Key von OpenWeatherMap besitzt :(");
         } catch (org.json.simple.parser.ParseException e) {
             e.printStackTrace();
         }
