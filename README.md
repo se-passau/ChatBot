@@ -2,6 +2,7 @@
 Beispielsystem für Lehr- und Übungszwecke
 
 ## Ausführen
+Um das Projekt ausführen zu können, muss die ApiLib aus STUD.IP eingebunden werden. Desweiteren wird ein API-Key von OpenWeatherMap benötigt, der einfach in der statischen Klasse API hinzugefügt werden kann.
 
 ### Via IDE
 Main.main() starten.
